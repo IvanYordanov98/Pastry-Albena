@@ -90,6 +90,20 @@ body
     margin-top: 0;
 }
 
+/* Block dividers */
+
+.block-divider 
+{
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.cake-position
+{
+    margin-left: 50px;
+}
+
 /* Styling */
 
 .styling 
@@ -178,4 +192,11 @@ body
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+/* Collors */
+
+.cake-text-collor
+{
+    color: #eb5151;
 }
