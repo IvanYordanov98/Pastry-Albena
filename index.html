@@ -12,5 +12,50 @@
 </head>
 
 <body>
+    <div class="container-fluid nav-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Pastry Albena</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cakes</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="cakes.html#birtdaycakes">Birthday Cakes</a>
+                            <a class="dropdown-item" href="cakes.html#weddingcakes">Wedding Cakes</a>
+                            <a class="dropdown-item" href="cakes.html#smallcakes">Small Cakes</a>
+                            <a class="dropdown-item" href="cakes.html#sweets">Sweets</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="signup.html">Sign In / Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Great Cakes delivered to your door!</i></p>
+                <a href="signup.html" class="btn btn-cta btn-yellow">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="opaque-overlay"></div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout styling text-center">
+                    <h1 class="styling-header">The finest Cakes delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Sign up today to start receiving the world's best Cakes.
+                    <s class="d-none d-sm-inline">€19.99</s>
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>First one is free!</mark></strong></p>
+                    <button class="btn btn-lg btn-cta btn-yellow" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>
 
 </body>

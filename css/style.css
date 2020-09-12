@@ -1,0 +1,122 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */
+
+.callout-container 
+{
+    height: 100vh;
+    background: url('../images/cake-background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar */
+
+.nav-container 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar 
+{
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(255 78 78 / 87%);
+    border: 0;
+}
+
+.navbar .navbar-toggler 
+{
+    border: 0;
+}
+
+.navbar .navbar-brand
+{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a 
+{
+    font-weight: bold;
+}
+
+/* Styling */
+
+.styling 
+{
+    background-color: transparent;
+}
+
+.styling h1 
+{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.styling .lead 
+{
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.styling small 
+{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn-cta 
+{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn-cta-error
+{
+    font-weight: bold;
+    border-radius: 23px;
+}
+.btn-yellow {
+    color: white;
+    background-color: #ffc107d4;
+    border-color: #212529;
+}
+
+.btn-yellow:hover,
+.btn-yellow:active,
+.btn-yellow:focus,
+.btn-yellow:active:focus 
+{
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
