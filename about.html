@@ -19,8 +19,8 @@
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cakes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -41,12 +41,12 @@
     </div>
     <div class="container-fluid callout-container">
         <!-- Callout -->
-        <div class="opaque-overlay"></div>
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout styling text-center">
                     <h1 class="styling-header">The finest Cakes delivered to your doorstep.</h1>
-                    <hr class="block-divider block-divider--orange">
+                    <hr class="block-divider block-divider-orange">
                     <p class="lead">Sign up today to start receiving the world's best Cakes.
                     <s class="d-none d-sm-inline">€19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
@@ -136,6 +136,36 @@
                 </div>
             </section>
             <!-- /.features -->
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title cake-text-collor">Sign Up To Pastry Albena!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn-yellow">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 

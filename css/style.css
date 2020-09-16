@@ -194,6 +194,19 @@ body
     color: #f05f40;
 }
 
+/* Form */
+
+.form
+{
+    position: relative;
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    margin-top: 20%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 /* Collors */
 
 .cake-text-collor
