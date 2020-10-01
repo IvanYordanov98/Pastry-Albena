@@ -168,6 +168,17 @@ body
     color: white;
 }
 
+.cancel
+{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -7px;
+    border-radius: 20px;
+    color: #000;
+    background-color: #ffc107d4;
+
+}
+
 /* Features */
 
 .feature 
@@ -201,7 +212,7 @@ body
     position: relative;
     background-color: #fff;
     width: 500px;
-    height: 350px;
+    height: 380px;
     margin-top: 20%;
     padding: 15px;
     border-radius: 5px;
